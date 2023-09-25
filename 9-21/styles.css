@@ -1,3 +1,28 @@
-p {
+r {
 	color: red;
+}
+
+g {
+	color: green;
+}
+
+blue {
+	color: blue;
+}
+
+o {
+	color: orange;
+}
+
+p {
+	color: rgb(139, 0, 255);
+}
+
+p1 {
+	color: #ffc0cb;
+}
+
+td {
+	width: 400px;
+	height: 300px;  
 }
