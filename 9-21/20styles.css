@@ -1,0 +1,22 @@
+r {
+	color: rgb(225, 0, 255);
+}
+
+p1 {
+	text-decoration: overline;
+	color: red;
+}
+
+p2 {
+	text-decoration: line-through;
+	color: green;
+}
+
+p3 {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}

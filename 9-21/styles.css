@@ -19,15 +19,34 @@ p1 {
 	color: #ffc0cb;
 }
 
-p2 {
-	width: 300px;
+p {
+	text-align: justify;
+	width: 300px; 
 }
 
 p3 {
 	color: rgb(139, 0, 255);
 }
 
+pr {
+	text-align: right;
+}
+
+pc {
+	width: 300px;
+	text-align: center;
+}
+
+pl {
+	text-align: left;
+}
+
 td {
-	width: 400px;
+	width: 500px;
 	height: 300px;  
+	text-align: center;
+}
+
+th {
+	text-align: left;
 }
