@@ -1,3 +1,4 @@
+
 r {
 	color: red;
 }
@@ -14,12 +15,16 @@ o {
 	color: orange;
 }
 
-p {
-	color: rgb(139, 0, 255);
-}
-
 p1 {
 	color: #ffc0cb;
+}
+
+p2 {
+	width: 300px;
+}
+
+p3 {
+	color: rgb(139, 0, 255);
 }
 
 td {
