@@ -1,0 +1,19 @@
+h1 {
+	text-align: center;
+}
+ /*-✧༺⋞ 〈 "№1" 〉 ⋟༻✧-*/
+#elem h2 {
+	color: red;
+}
+ /*-✧༺⋞ 〈 "№2" 〉 ⋟༻✧-*/
+#elem .text {
+	color: red;
+}
+ /*-✧༺⋞ 〈 "№3" 〉 ⋟༻✧-*/
+#elem p.text {
+	color: red;
+}
+ /*-✧༺⋞ 〈 "№4" 〉 ⋟༻✧-*/
+#elem li.text {
+	color: red;
+}
