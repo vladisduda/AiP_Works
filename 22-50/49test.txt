@@ -1,0 +1,85 @@
+
+№1
+Пример с :first-of-type и :last-of-type:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p:first-of-type {
+            color: red;
+        }
+
+        p:last-of-type {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+    <p>This is the last paragraph.</p>
+</body>
+
+</html>
+
+(текст первого абзаца станет красным, а текст последнего абзаца станет синим)
+
+№2
+Пример с :nth-of-type и :nth-last-of-type:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p:nth-of-type(odd) {
+            background-color: lightgray;
+        }
+
+        p:nth-last-of-type(even) {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+    <p>This is the third paragraph.</p>
+    <p>This is the fourth paragraph.</p>
+    <p>This is the fifth paragraph.</p>
+</body>
+
+</html>
+(нечетные абзацы будут иметь светло-серый фон, а четные абзацы снизу будут иметь светло-голубой фон)
+
+№3
+Пример с :only-of-type:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p:only-of-type {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is a paragraph.</p>
+</body>
+
+</html>
+
+(абзац имеет жирное начертание, так как это единственный абзац на странице и соответствует псевдоклассу :only-of-type)
