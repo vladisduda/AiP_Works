@@ -1,10 +1,10 @@
 //№1
 let a = 10;
 let b = 2;
-alert("a + b = " + (a + b));
-alert("a - b = " + (a - b));
-alert("a * b = " + (a * b));
-alert("a / b = " + (a / b));
+alert("a + b = " + (a + b) + "\n"
+    + "a - b = " + (a - b) + "\n"
+    + "a * b = " + (a * b) + "\n"
+    + "a / b = " + (a / b));
 //№2
 let c = 10;
 let d = 5;
@@ -21,4 +21,4 @@ b = 5;
 c = a - b;
 d = 7;
 result = c + d;
-alert( "(a - d) + d = " + result);
+alert("(a - d) + d = " + result);
