@@ -2,9 +2,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>test74</title>
-    <link rel="stylesheet" href="74styles.css">
+    <title>test89</title>
 </head>
+<style>
+    .parent,
+    .parent1,
+    .parent2,
+    .parent3,
+    .parent4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        border: 1px solid red;
+        height: 300px;
+    }
+
+    .child {
+        width: 100px;
+        height: 50px;
+        border: 1px solid green;
+    }
+
+    .parent1 {
+        flex-direction: column;
+    }
+
+    .parent2 {
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+
+    .parent3 {
+        flex-direction: row-reverse;
+    }
+
+    .parent4 {
+        flex-direction: column-reverse;
+    }
+</style>
 
 <body>
     <h2>-✧༺⋞ 〈 "№1" 〉 ⋟༻✧-</h2>
@@ -39,7 +74,14 @@
         <div class="child">4</div>
         <div class="child">5</div>
     </div>
-
+    <h2>-✧༺⋞ 〈 "№5" 〉 ⋟༻✧-</h2>
+    <div class="parent4">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,48 @@
+ 
+  .parent, .parent1, .parent2, .parent3, .parent4, .parent5, .parent6  {
+	display: flex;
+	flex-direction:column-reverse;
+	justify-content:flex-end; 
+	align-items:flex-end;
+	border: 1px solid red;
+	height: 300px;
+  }
+  
+  .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+  
+  .parent1 {
+	flex-direction:row-reverse;
+	justify-content:flex-start;
+  }
+  
+  .parent2 {
+	flex-direction:column-reverse;
+	justify-content:flex-end; 
+	align-items:flex-start;
+  }
+  
+  .parent3 {
+	flex-direction:column-reverse;
+	justify-content:flex-start;
+  }
+  
+  .parent4 {
+	flex-direction:row;
+	justify-content:flex-start;
+  }
+  
+  .parent5 {
+	flex-direction:row;
+	justify-content: flex-end;
+	align-items: flex-start;
+  }
+  
+  .parent6 {
+	flex-direction:row;
+	justify-content: flex-end;
+	align-items: flex-end;
+  }
