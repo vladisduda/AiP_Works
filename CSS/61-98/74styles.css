@@ -1,0 +1,47 @@
+.parent {
+	height: 400;
+	border:1px solid red;
+	display: flex;
+	justify-content: center;
+}
+.child {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+.parent1 {
+	height: 200;
+	border:1px solid red;
+	display: flex;
+	justify-content: space-between;
+}
+.child1 {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+.parent2 {
+	height: 200;
+	border:1px solid red;
+	display: flex;
+	justify-content: space-around;
+}
+.child2 {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+.parent3 {
+	height: 200;
+	border:1px solid red;
+	display: flex;
+	justify-content: space-evenly;
+}
+.child3 {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}

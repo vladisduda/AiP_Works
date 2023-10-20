@@ -1,0 +1,64 @@
+.parent {
+	text-align: center;
+	padding: 10px 0;
+	border: 1px solid red;
+}
+.child {
+	display: inline-block;
+	margin-right: 5px;
+	padding: 10px;
+	border: 1px solid green;
+}
+
+.parent1 {
+	text-align: right;
+	padding: 10px 0;
+	border: 1px solid red;
+}
+.child1 {
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid green;
+}
+
+.parent2 {
+	text-align: right;
+	padding-right: 10px;
+	border: 1px solid red;
+}
+.child2 {
+	display: inline-block;
+	
+	border: 1px solid green;
+}
+
+.parent3 {
+	text-align: right;
+	border: 1px solid red;
+}
+.child3 {
+	display: inline-block;
+	margin-right: 10px;
+	border: 1px solid green;
+}
+
+.parent4 {
+	border: 1px solid red;
+	text-align: right;
+}
+.child4 {
+	display: inline-block;
+	width: 100px;
+	border: 1px solid green;
+}
+
+.parent5 {
+	border: 1px solid red;
+	text-align: right;
+}
+.child5 {
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+	border: 1px solid green;
+}
