@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>test96.2</title>
+    <style>
+        #menu {
+            display: flex;
+            margin-bottom: 20px;
+            background-color: orange;
+        }
+
+        #menu a {
+            margin: 0 5px;
+            padding: 15px 25px;
+            text-decoration: none;
+            color: #fff;
+            font: bold 14px Arial;
+        }
+
+        #menu a:hover,
+        #menu a.active {
+            color: orange;
+            background-color: #fff;
+        }
+
+        #content {
+            padding: 0 30px 20px;
+        }
+
+        #content h1,
+        h2 {
+            color: orange;
+            font-weight: normal;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        #content p {
+            padding: 0 10px;
+            margin-bottom: 5px;
+            font: 17px/33px "TimesNewRoman";
+            text-align: justify;
+            text-indent: 50px;
+            color: darkorange;
+        }
+
+        #content b {
+            color: blue;
+        }
+
+        p a {
+            color: orange;
+            cursor: pointer;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        p a:hover {
+            color: black;
+            text-decoration: none;
+        }
+
+        #wrapper {
+            border: 1px solid orange;
+            width: 900px;
+            margin: 0 auto 50px;
+        }
+
+        #underText {
+            display: flex;
+            justify-content: center;
+            font: 14px Arial;
+        }
+
+        #underText a {
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+            margin: 0 10px;
+            color: orangered;
+        }
+
+        #underText a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="menu">
+            <a href="#">home</a>
+            <a href="#" class="active">blog</a>
+            <a href="#">photos</a>
+            <a href="#">about us</a>
+            <a href="#">contacts</a>
+        </div>
+        <div id="content">
+            <h1>Proin tristique lorem</h1>
+            <p>
+                Lorem ipsum dolor <b>sit amet</b>, consectetur
+                adipiscing elit. Nulla pharetra risus erat,
+                eu imperdiet felis suscipit at. Vivamus rhoncus
+                vel neque non eleifend. Donec adipiscing eros
+                quis molestie sodales. Proin vitae nulla ut
+                sem lobortis scelerisque. Aliquam ultricies
+                porta sem quis fringilla. Quisque pretium
+                enim ut elit fringilla, in adipiscing ligula
+                placerat. Integer id tortor tristique, f
+                acilisis lorem sit amet, porta ante. Nulla
+                eget diam in erat hendrerit gravida.
+            </p>
+            <p>
+                Cras ut nunc metus. Nullam id faucibus ante.
+                <b>Proin tristique lorem</b> tristique dolor porttitor, eget adipiscing leo gravida.
+                Proin erat erat, laoreet sit amet tincidunt ac, iaculis nec libero. In placerat
+                odio ac dapibus faucibus. Praesent ut est in ligula facilisis congue eget ac ante.
+                Phasellus at felis vitae est molestie ultricies.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

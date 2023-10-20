@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>test94</title>
+    <style>
+        .parent,
+        .parent1,
+        .parent2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid red;
+            height: 300px;
+        }
+
+        .parent1 {
+            align-items: stretch;
+        }
+
+        .parent2 {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .child {
+            height: 50px;
+            width: 100px;
+            border: 1px solid green;
+        }
+
+        .child1 {
+            width: 100px;
+            border: 1px solid green;
+        }
+
+        .elem {
+            align-self: flex-end;
+        }
+
+        .elem1 {
+            width: 100px;
+            align-self: center;
+        }
+
+        .elem2 {
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>-✧༺⋞ 〈 "№1" 〉 ⋟༻✧-</h2>
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child elem">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+    </div>
+    <h2>-✧༺⋞ 〈 "№2" 〉 ⋟༻✧-</h2>
+    <div class="parent1">
+        <div class="child1">1</div>
+        <div class="child1">2</div>
+        <div class="child1 elem1">3</div>
+        <div class="child1">4</div>
+        <div class="child1">5</div>
+    </div>
+    <h2>-✧༺⋞ 〈 "№3" 〉 ⋟༻✧-</h2>
+    <div class="parent2">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child elem2">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+    </div>
+</body>
+
+</html>
