@@ -1,0 +1,10 @@
+let str = 'abcde';
+let a = 0;
+let b = 1;
+let c = 2;
+let d = 3;
+let e = 4;
+let num = 3;
+alert(`-✧༺⋞ 〈 "№1" 〉 ⋟༻✧- \n ${str[a]} ${str[c]} ${str[e]}`);
+alert(`-✧༺⋞ 〈 "№2" 〉 ⋟༻✧- \n ${str[e] + str[d]+ str[c]+ str[b]+ str[a]} `);
+alert(`-✧༺⋞ 〈 "№3" 〉 ⋟༻✧- \n num = ${str[num]}`);
