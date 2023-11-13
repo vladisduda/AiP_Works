@@ -1,0 +1,7 @@
+В 1 выведется: object
+В 2 выведется: number
+В 3 выведется: array
+В 4 выведется: number
+В 5 выведется: array
+В 6 выведется: number
+7 string, number, null, undefined, boolean
