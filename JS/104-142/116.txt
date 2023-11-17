@@ -1,1 +1,37 @@
+let num = 3;		
+if (num > 5 && num < 10 || num == 20) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
 
+Ответ:
+num > 5 И num < 10
+ИЛИ
+num == 20
+
+let num = 3;		
+if (num > 5 || num > 0 && num < 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+Ответ:
+num > 5
+ИЛИ
+num > 0 И num < 3
+
+let num = 3;	
+if (num == 9 || num > 10 && num < 20 || num > 20 && num < 30) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+Ответ:
+num == 9
+ИЛИ
+num > 10 И  num < 20 
+ИЛИ
+num > 20 И num < 30
